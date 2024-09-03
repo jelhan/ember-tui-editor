@@ -5,6 +5,8 @@ on:
     branches:
       - main
       - master
+      # TODO: Remove before merging
+      - support-ember-v4
   pull_request: {}
 
 concurrency:
